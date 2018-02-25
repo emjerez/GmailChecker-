@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Gmail Hackathon</title>
+    <link rel="stylesheet" href="gmail.css">
+    <script type="text/javascript" src="gmail.js"></script>
+  </head>
+  <body>
+    <div class = "navbar">
+      <input type="button" name= "Send" value="Send" id="send-btn1">
+      <input type="button" name= "Save Draft" value="Save Draft">
+      <input type="button" name= "Discard" value="Discard">
+    </div>
+    <div class = "inputfields">
+      <form action="/action_page.php">
+        <div id="wrap">
+          <div id="labels">
+            To:<br>
+            Cc:<br>
+            Bcc:<br>
+            Subject:<br>
+            Attachments:<br>
+          </div>
+          <div id="inputs">
+            <input type="text" name="to"><br>
+            <input type="text" name="cc"><br>
+            <input type="text" name="bcc"><br>
+            <input type="text" name="subject"><br>
+            <input type="file" name="attachments" id="no-file"><br>
+          </div>
+        </div>
+      </form>
+    <div class = "letter">
+      <textarea name="text" rows="8" cols="80" id="box"></textarea>
+    </div>
+    </div>
+    <div class = "footer">
+      <input type="button" name= "Send" value="Send" id="send-btn2">
+      <input type="button" name= "Save Draft" value="Save Draft">
+      <input type="button" name= "Discard" value="Discard">
+    </div>
+
+  </body>
+</html>
