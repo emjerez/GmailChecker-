@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #7ADACD;
+  padding: 1rem;
+  padding-bottom: .25rem;
+  padding-top: .25rem;
+}
+
+.inputfields {
+  background-color: #B7D7E3;
+  padding: .5rem
+}
+
+#wrap {
+  display: inline-flex;
+  width: 100vw;
+}
+
+#inputs {
+  width: 100%;
+  padding-left: .5%
+}
+
+.letter #box {
+  padding: .5rem;
+  margin: .25rem;
+  height: 40vh;
+  width: 98vw;
+  display: block;
+}
+
+.inputfields input {
+  width: 95%
+}
+
+.footer {
+  background-color: #7ADACD;
+  padding: 1rem;
+  padding-bottom: .25rem;
+  padding-top: .25rem;
+}
